@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D1F3D1"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/welcomeTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Welcome to Revify"
+        android:textColor="#2C3E50"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:fontFamily="sans-serif-medium" />
+
+
+    <TextView
+        android:id="@+id/subtitleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="20dp"
+        android:text="Explore dynamic lists with ease."
+        android:textSize="16sp"
+        android:textColor="#FF5722"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/pleasant_image_of_bd"
+        android:contentDescription="Illustration for Revify" />
+
+    <!-- Explore Button -->
+    <Button
+        android:id="@+id/exploreButton"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#3498DB"
+        android:padding="12dp"
+        android:text="Explore"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="20dp"
+        android:text="*Revify: Empowering seamless data visualization and interaction.*"
+        android:textSize="16sp"
+        android:textColor="#FF9800"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic" />
+
+
+</LinearLayout>

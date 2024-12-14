@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Revify</string>
+
+    <!-- Array for 15 places -->
+    <string-array name="places">
+        <item>Eiffel Tower</item>
+        <item>Great Wall of China</item>
+        <item>Statue of Liberty</item>
+        <item>Mount Fuji</item>
+        <item>Taj Mahal</item>
+        <item>Pyramids of Giza</item>
+        <item>Sydney Opera House</item>
+        <item>Machu Picchu</item>
+        <item>Christ the Redeemer</item>
+        <item>Big Ben</item>
+        <item>Acropolis of Athens</item>
+        <item>Colosseum</item>
+        <item>Niagara Falls</item>
+        <item>Alhambra</item>
+        <item>Burj Khalifa</item>
+    </string-array>
+</resources>
